@@ -29,8 +29,6 @@ import imutils
 from skimage.filters import threshold_local
 import base64
 
-print("proceed")
-
 
 def loadImage(URL):
     image = io.imread(URL)
